@@ -1,6 +1,6 @@
 {
   "name": "KentorWizard-formValidation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jQuery form validation and basic wizard functionality from KentorWizard package such as next and previous step buttons and breadcrumbs.",
   "main": "js/validate.js",
   "keywords": [
