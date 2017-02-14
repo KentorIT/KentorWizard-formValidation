@@ -1,0 +1,28 @@
+{
+  "name": "KentorWizard-formValidation",
+  "version": "1.0.0",
+  "description": "jQuery form validation and basic wizard functionality from KentorWizard package such as next and previous step buttons and breadcrumbs.",
+  "main": "js/validation.js",
+  "keywords": [
+    "wizard",
+    "kentor",
+    "breadcrumb",
+    "navigation",
+    "validation",
+    "jquery"
+  ],
+  "authors": [
+    "Johan Svard",
+    "Albert Jungselius"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/JungseliusAtKentor/KentorWizard",
+  "ignore": [
+    "*",
+    "!js/validation.js"
+  ],
+  "dependencies": {
+    "jquery-validation": "1.10.0",
+    "KentorWizard": "^1.0.1"
+  }
+}

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Kentor Wizard Exemple</title>
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/KentorWizard/js/wizard.js"></script>
+    <script src="bower_components/jquery-validation/jquery.validate.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/validate.js"></script>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div>
+        <form id="target" action="index.html">
+            <div class="wizard" data-forward-button-text="Next">
+                <div class="wizard-title-wrapper page-title-divider">
+                    <div class="wizard-title"></div>
+                </div>
+                <div class="wizard-header">
+                    <div class="wizard-step-label"></div>
+                    <div class="wizard-info"></div>
+                </div>
+                <div class="wizard-step">
+                    <input type="text" required>
+                </div>
+                <div id="000" class="wizard-step">
+                    <input type="text" required>
+                </div>
+                <div class="wizard-step" data-step-header="Preview" data-forward-button-text="Send">
+                    <p>333333333333333333333</p>
+                </div>
+
+                <div class="wizard-footer">
+                    <div class="wizard-back">
+                        <button type="button" class="cancel wizard-back-button">Back</button>
+                    </div>
+                    <div class="wizard-breadcrumb"></div>
+                    <div class="wizard-forward">
+                        <button type="button" class="wizard-forward-button">Next</button>
+                    </div>
+                    <div class="wizard-message-area"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
