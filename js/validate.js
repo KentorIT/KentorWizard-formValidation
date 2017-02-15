@@ -6,12 +6,12 @@
             validationFalseHandler: function (validator) {
                 console.log(validator);
                 return;
-            },
+            }
         },
             opts);
         var wizardOpts = $.extend(opts, {
 
-            onloadHandler: function (event) {
+            onloadHandler: function () {
                 if (!($wizard.closest('form').length === 1 && $wizard.find('form').length === 0)) {
                     throw "There are no form tags or they are missplaced.";
                 }
@@ -23,7 +23,7 @@
                     i++;
                 });
                 if (options.onloadHandler !== undefined) {
-                    var result = options.onloadHandler();
+                        options.onloadHandler();
                 }
             },
             nextHandler: function (event) {
