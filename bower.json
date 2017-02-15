@@ -23,6 +23,6 @@
   ],
   "dependencies": {
     "jquery-validation": "1.10.0",
-    "KentorWizard": "^1.0.1"
+    "KentorWizard": "^1.0.3"
   }
 }
