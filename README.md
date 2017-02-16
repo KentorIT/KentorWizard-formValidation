@@ -1,6 +1,6 @@
 #KentorWizard-formValidation
 
-####` PM> Install-Package KentorWizard-formValidation`
+####` PM> Install-Package Kentor.jQueryWizardFormValidation`
 
 ####` bower install KentorWizard-formValidation`
 
