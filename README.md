@@ -152,15 +152,15 @@ $.fn.extend({
 ###Navigation
 
 ```javascript
-myWizard.goWizardStep(number);
-myWizard.goWizardStep("#id");
-myWizard.goWizardNext();
-myWizard.goWizardBack();
+(".wizard").goWizardStep(number);
+(".wizard").goWizardStep("#id");
+(".wizard").goWizardNext();
+(".wizard").goWizardBack();
 
-myWizard.wizardFormValidation().goWizardStep(number);
-myWizard.wizardFormValidation().goWizardStep("#id");
-myWizard.wizardFormValidation().goWizardNext();
-myWizard.wizardFormValidation().goWizardBack();
+(".wizard").wizardFormValidation().goWizardStep(number);
+(".wizard").wizardFormValidation().goWizardStep("#id");
+(".wizard").wizardFormValidation().goWizardNext();
+(".wizard").wizardFormValidation().goWizardBack();
 
 ```
 
