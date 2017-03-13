@@ -152,10 +152,10 @@ $.fn.extend({
 ###Navigation
 
 ```javascript
-(".wizard").goWizardStep(number);
-(".wizard").goWizardStep("#id");
-(".wizard").goWizardNext();
-(".wizard").goWizardBack();
+myWizard.goWizardStep(number);
+myWizard.goWizardStep("#id");
+myWizard.goWizardNext();
+myWizard.goWizardBack();
 
 (".wizard").wizardFormValidation().goWizardStep(number);
 (".wizard").wizardFormValidation().goWizardStep("#id");
