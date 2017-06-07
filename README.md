@@ -1,15 +1,15 @@
-#KentorWizard-formValidation
+# KentorWizard-formValidation
 
-####` PM> Install-Package Kentor.jQueryWizardFormValidation`
+#### ` PM> Install-Package Kentor.jQueryWizardFormValidation`
 
-####` bower install KentorWizard-formValidation`
+#### ` bower install KentorWizard-formValidation`
 
-##Description 
+## Description 
 This wizard provides form validation and basic wizard functionality such as next and previous step buttons and breadcrumb navigation. 
 ####Breadcrumbs
 To use breadcrumb navigation simply use the class `<div class="wizard-breadcrumb"></div>`. The breadcrumb link text is, if not undefined, retrived from the ´data-step-header´ else it will display the step number. 
-##HTML
-####A basic HTML example
+## HTML
+#### A basic HTML example
 ```html
 <head>
     <meta charset="utf-8"/>
@@ -61,10 +61,10 @@ To use breadcrumb navigation simply use the class `<div class="wizard-breadcrumb
 </body>
 
 ```
-##JavaScript
+## JavaScript
  The wizard takes an object as an argument which enables the possibility to "overload" some wizard functions. 
 
-####Without an argument these default options will take effect
+#### Without an argument these default options will take effect
 ```javascript
  var defaultOpts = {
  	nextHandler: function(event) {}, 
@@ -82,7 +82,7 @@ To use breadcrumb navigation simply use the class `<div class="wizard-breadcrumb
             }
 	}
 ```
-####An example on how to "overload" the wizard options
+#### An example on how to "overload" the wizard options
 ```javascript
 $(this).wizardFormValidation({
 			
@@ -121,8 +121,8 @@ $(this).wizardFormValidation({
 
 ## More Examples
 
-###Add a new button
-####HTML
+### Add a new button
+#### HTML
 ```html
 <div class="wizard-footer">
 	<div class="myWizard-doSomething">
@@ -130,7 +130,7 @@ $(this).wizardFormValidation({
 	</div>
 </div>
 ```
-####JavaScript
+#### JavaScript
 
 ```javascript
 $.fn.extend({
@@ -149,7 +149,7 @@ $.fn.extend({
 
 });
 ```
-###Navigation
+### Navigation
 
 ```javascript
 myWizard.goWizardStep(number);
@@ -164,7 +164,7 @@ myWizard.goWizardBack();
 
 ```
 
-####Use breadcrumbs with bootstrap example
+#### Use breadcrumbs with bootstrap example
 
 ```html
 <div class="wizard-breadcrumb"></div>
