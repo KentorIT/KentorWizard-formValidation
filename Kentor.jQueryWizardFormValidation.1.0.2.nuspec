@@ -19,6 +19,6 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="js\validation.js" target="content\Scripts\Kentor\validation.js" />
+        <file src="js\validate.js" target="content\Scripts\Kentor\validate.js" />
     </files>
 </package>
