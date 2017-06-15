@@ -1,4 +1,4 @@
-# KentorWizard-formValidation
+﻿# KentorWizard-formValidation
 
 #### ` PM> Install-Package Kentor.jQueryWizardFormValidation`
 
@@ -75,6 +75,7 @@ To use breadcrumb navigation simply use the class `<div class="wizard-breadcrumb
 	shiftAnimationHide: function (stepToHide) { stepToHide.hide(); }, 
 	shiftAnimationShow: function (stepToShow) { stepToShow.show(); }, 
 	breadcrumbDivider: " | ", 
+     allowMultipleClick: false,
 	focusFirst: true, 
 	validationFalseHandler: function (validator) {
                 console.log(validator);
@@ -106,8 +107,10 @@ $(this).wizardFormValidation({
            shiftAnimationHide: function (stepToHide) { stepToHide.slideUp(); },
 		//This function is called to show the next step.
            shiftAnimationShow: function (stepToShow) { stepToShow.slideDown(); },
-		   //This is set between breadcrumb buttons
+		//This is set between breadcrumb buttons
 		    breadcrumbDivider: "<<<<>>>>>",
+       //If true double click on buttons will execute two click events
+           allowMultipleClick: false,
 	   //When a step is rendered the wizard will as default if a form is used focus on the first input
 	   focusFirst: false, 
 	   //If form is not valid this function vill be called

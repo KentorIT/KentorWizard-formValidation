@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Kentor.jQueryWizardFormValidation</id>
+        <version>1.0.1</version>
+        <title>Kentor.jQueryWizardFormValidation</title>
+        <authors>Johan Svärd,Albert Jungselius</authors>
+        <owners>Kentor AB</owners>
+        <licenseUrl>https://github.com/KentorIT/KentorWizard-formValidation/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/KentorIT/KentorWizard-formValidation</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/KentorIT/owin-cookie-saver/master/Kentor.OwinCookieSaver/Kentor.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Wizard with jQuery form validation</description>
+        <copyright>Kentor AB</copyright>
+        <tags>kentor wizard form validation jquery</tags>
+        <dependencies>
+            <dependency id="jQuery.Validation" version="1.11.0" />
+            <dependency id="Kentor.jQueryWizard" version="1.0.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js\validation.js" target="content\Scripts\Kentor\validation.js" />
+    </files>
+</package>
